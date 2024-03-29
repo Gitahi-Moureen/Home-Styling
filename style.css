@@ -1,0 +1,97 @@
+#Body{
+    margin: 0;
+    overflow-x: hidden;
+}
+#Header{
+    display: flex;
+    gap: 30%;
+    margin-left: 10%;
+}
+
+#words{
+    gap: 20%;
+}
+
+#ChooseUs{
+    text-align: center;
+}
+#Choices{
+    display: flex;
+    gap: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#Product{
+    text-align: center;
+    margin-top: 10%;
+   
+
+}
+
+#Chairs{
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+}
+
+#Styles{
+    text-align: center;
+}
+
+#Leather{
+    display: flex;
+    gap: 10%;
+    border-top: 10%;
+    margin-left: 25%;
+}
+
+#Sofa{
+    border-bottom: 10%;
+    
+}
+
+#MasterBedroom{
+    display: flex;
+    margin-top: 10%;
+    gap: 15%;
+    margin-left: 25%;
+}
+button{
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: saddlebrown;
+    border: none;
+}
+
+#ModernDinning{
+display: flex;
+margin-top: 10%;
+margin-left: 25%;
+    
+}
+
+#Discount{
+    margin-right: 20%;
+}
+
+#Image1{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 768px){
+    #Choices{
+       
+        flex-wrap: wrap;
+    }
+    #Chairs{
+        flex-wrap: wrap;
+    }
+
+    #Leather{
+        flex-wrap: wrap;
+    }
+
+
+}
